@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title>Portifólio Maria Gabriela</title>
+
+</head>
+
+<body>
+    <main>
+        <!-- HEADER -->
+        <header>
+            <div class="logo">
+                Portifólio
+            </div>
+            <div class="menu">
+                <nav class="nav-list">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#contact">Contato</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- HOME -->
+        <section id="home">
+            <div class="home-info">
+                <h2>Olá, sou Gabriela Zuppardo</h2>
+                <span class="home-position">Programador FullStack</span>
+                <span class="home-resume">
+                    Estudante no curso de Sistemas para Internet e Engenharia Eletrônica, apaixonada por programação, meu objetivo e me tornar uma desenvolvedora Fullstack. Atualmente tenho conhecimento em ciência de dados, IoT,front-end e back-end. .
+        </span>
+
+                <button>
+          <a href="#contact">Contate-me</a>
+        </button>
+            </div>
+            <div class="home-img">
+                <img src="./img/xavatar.jpeg" alt="Foto de perfil">
+            </div>
+        </section>
+
+
+        <!-- PROJECTS -->
+
+        <section id="projects">
+            <h2>Projetos</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="project-img">
+                            <img src="img/MarioJump.png" alt="Foto de um site">
+                        </div>
+                        <div class="project-info">
+                            <h2>Criação de Jogos</h2>
+                            <p>Criação de jogos modernos e responsivos</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-img">
+                            <img src="./img/listadetarefas.jpeg" alt="Foto de uma Lista de Tarefas">
+                        </div>
+
+                        <div class="project-info">
+                            <h2>Lista de Tarefas</h2>
+                            <p> Aplicações como Listas de Tarefas.</p>
+                            <p>
+                                <a href="https://tarefasjs-gabrielazuppardo.netlify.app/"> Você pode acessar e testa-la</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-img">
+                            <img src="img/clonedeapp.jpeg" alt="Clone de Aplicativos">
+                        </div>
+                        <div class="project-info">
+                            <h2>Clone de Aplicativos</h2>
+                            <p>Clone de Aplicativos como Instagram ou Netflix</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-img">
+                            <img src="img/sitePessoal.jpeg" alt="Sites Pessoais">
+                        </div>
+                        <div class="project-info">
+                            <h2>Site Pessoais</h2>
+                            <p>Criação de Sites Pessoais</p>
+                        </div>
+                    </div>
+
+                </div>
+                </p>
+            </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Digite seu nome" />
+                <input type="email" placeholder="Digite seu e-mail" />
+                <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <button>Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
